@@ -1,0 +1,106 @@
+{
+  "syne": [
+    {
+      "algorithm": "SYNE",
+      "run_id": 0,
+      "solved": true,
+      "generations_to_solve": 2,
+      "final_fitness": 500.0,
+      "final_nodes": 6,
+      "final_connections": 6,
+      "total_time": 0.21536993980407715
+    },
+    {
+      "algorithm": "SYNE",
+      "run_id": 1,
+      "solved": true,
+      "generations_to_solve": 2,
+      "final_fitness": 500.0,
+      "final_nodes": 5,
+      "final_connections": 4,
+      "total_time": 0.2599940299987793
+    },
+    {
+      "algorithm": "SYNE",
+      "run_id": 2,
+      "solved": true,
+      "generations_to_solve": 1,
+      "final_fitness": 500.0,
+      "final_nodes": 6,
+      "final_connections": 7,
+      "total_time": 0.08094620704650879
+    },
+    {
+      "algorithm": "SYNE",
+      "run_id": 3,
+      "solved": true,
+      "generations_to_solve": 0,
+      "final_fitness": 500.0,
+      "final_nodes": 5,
+      "final_connections": 4,
+      "total_time": 0.022294998168945312
+    },
+    {
+      "algorithm": "SYNE",
+      "run_id": 4,
+      "solved": true,
+      "generations_to_solve": 1,
+      "final_fitness": 500.0,
+      "final_nodes": 5,
+      "final_connections": 4,
+      "total_time": 0.23020172119140625
+    }
+  ],
+  "neat": [
+    {
+      "algorithm": "NEAT",
+      "run_id": 0,
+      "solved": true,
+      "generations_to_solve": 0,
+      "final_fitness": 500.0,
+      "final_nodes": 1,
+      "final_connections": 4,
+      "total_time": 0.021039724349975586
+    },
+    {
+      "algorithm": "NEAT",
+      "run_id": 1,
+      "solved": true,
+      "generations_to_solve": 0,
+      "final_fitness": 500.0,
+      "final_nodes": 1,
+      "final_connections": 4,
+      "total_time": 0.03034496307373047
+    },
+    {
+      "algorithm": "NEAT",
+      "run_id": 2,
+      "solved": true,
+      "generations_to_solve": 0,
+      "final_fitness": 500.0,
+      "final_nodes": 1,
+      "final_connections": 4,
+      "total_time": 0.02249288558959961
+    },
+    {
+      "algorithm": "NEAT",
+      "run_id": 3,
+      "solved": true,
+      "generations_to_solve": 0,
+      "final_fitness": 500.0,
+      "final_nodes": 1,
+      "final_connections": 4,
+      "total_time": 0.031187772750854492
+    },
+    {
+      "algorithm": "NEAT",
+      "run_id": 4,
+      "solved": true,
+      "generations_to_solve": 1,
+      "final_fitness": 500.0,
+      "final_nodes": 1,
+      "final_connections": 4,
+      "total_time": 0.08939218521118164
+    }
+  ]
+}

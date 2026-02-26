@@ -1,0 +1,75 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "syne"
+version = "0.1.0"
+description = "Symbiogenetic Neuro-Evolution: A neuroevolutionary algorithm based on symbiogenesis"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "SYNE Contributors"}
+]
+keywords = [
+    "neuroevolution",
+    "symbiogenesis",
+    "evolutionary-algorithm",
+    "neural-networks",
+    "artificial-life",
+    "genetic-algorithm",
+    "topology-evolution",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Artificial Life",
+]
+requires-python = ">=3.8"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov",
+    "mypy",
+    "black",
+    "ruff",
+]
+viz = [
+    "graphviz",
+    "matplotlib",
+]
+
+[project.urls]
+Homepage = "https://github.com/syne-evolution/syne"
+Documentation = "https://syne.readthedocs.io"
+Repository = "https://github.com/syne-evolution/syne"
+
+[tool.setuptools.packages.find]
+include = ["syne*"]
+
+[tool.black]
+line-length = 100
+target-version = ['py38', 'py39', 'py310', 'py311']
+
+[tool.ruff]
+line-length = 100
+target-version = "py38"
+
+[tool.mypy]
+python_version = "3.8"
+warn_return_any = true
+warn_unused_configs = true
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
